@@ -1,0 +1,205 @@
+// Custom.scss
+// This is the file you will want to update to customize your page.
+
+// Import Google fonts here
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+$font-family-base: 'Montserrat', sans-serif;
+$headings-font-family: 'Montserrat', sans-serif;
+
+
+
+
+$primary: #70367B;
+$secondary: #3B53C7;
+$success: #520d69;
+$info: #59C1EF;
+$warning: #FFF689;
+$danger: #E5446D;
+$light: #f2f2f2;
+$dark: #f1c7ff;
+
+
+
+
+
+$navbar-dark-hover-color: #A04ADD;
+
+
+
+
+$h1-font-size: 3.052rem;
+$h2-font-size: 2.441rem;
+$h3-font-size: 1.953rem;
+$h4-font-size: 1.563rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: .75rem;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.navbar-brand {
+  font-family: "Libre Baskerville", serif;
+}
+
+.carousel-item {
+  height: 70vh; 
+  min-height: 400px; 
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; 
+}
+
+.carousel-caption {
+  text-align: left;
+  max-width: 500px;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  bottom: 40%;
+
+}
+
+.carousel-caption h5 {
+font-size: 2.5rem;
+font-weight: 700;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex: 1 1 auto;
+}
+
+.card-img-top {
+  height: 250px;         
+  object-fit: cover;     
+  width: 100%;            
+}
+
+.logo-img {
+  max-width: 250px !important;  
+  height: auto;                 
+}
+
+
+.category-img {
+  width: 100%;         
+  aspect-ratio: 1 / 1; 
+  object-fit: cover;  
+  border-radius: 8px;  
+}
+
+.category-card {
+  position: relative;    
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 10px;         
+  padding: 5px 10px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  text-align: center;
+}
+
+
+.btn-all-category {
+    font-size: 14px;  
+    font-weight: bold;
+  }
+    
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .btn {
+    margin-top: auto; 
+}
+
+.card .btn {
+  width: auto !important;
+  display: inline-block !important;
+  align-self: center !important;
+}
+
+.address-line {
+  position: relative;
+  display: inline-block;
+}
+
+.address-line::after {
+  content: "";
+  position: absolute;
+  width: 50%; 
+  height: 2px; 
+  background:white;
+  bottom: -5px; 
+  left: 0; 
+}
+
+.ph-fill {
+  font-size: 25px;
+}
+
+#social a {
+  text-decoration: none !important;
+}
+
+#social a {
+  text-decoration: none !important;
+  
+  font-weight: 600;
+}
+
+#social i {
+  font-size: 24px;
+}
+
+.navbar-toggler-icon {
+display: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+.ph-list{
+  color:#520d69;
+  font-size: 25px;
+}
+
+
+
+.search-box .search-icon {
+  position: absolute;
+  right: 15px;      
+  top: 50%;
+  pointer-events: none; 
+}
+
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body > .d-flex {
+  margin-top: auto;
+}

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final project</title>
+  <link rel="stylesheet" href="css/custom.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/fill/style.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/bold/style.css"
+    />
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+<link rel="stylesheet" href="css/custom.css"> 
+</head>
+
+
+
+<body class="bg-black">
+  <header>
+    <nav class="navbar navbar-expand-lg  bg-dark navbar-dark p-4"  href="index.html">
+      
+      <div class="container">
+
+      
+
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo .webp" alt="Logo" width="100" height="auto">
+        </a>
+          
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+          aria-label="Toggle navigation"><i class="ph-bold ph-list "></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ps-4-lg">
+              <li class="nav-item">
+                <a class="nav-link text-black "href="product.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="contact.html">Contact us</a>
+              </li>
+            </ul>
+
+            <div class="d-inline-flex flex-column flex-lg-row ms-auto">
+
+            
+              <a class="navbar-brand"></a>
+                <form class="search-box position-relative " role="search">
+                  <input class="form-control pe-5 rounded-pill" type="search" placeholder=""  aria-label="Search"/>
+
+                  <i class="ph-bold ph-magnifying-glass position-absolute top-50 end-0 translate-middle-y me-3"></i>
+                </form>
+                
+
+                
+                  <button type="button" class="btn btn-sm btn-dark "><i class="ph-fill ph-user"></i></button>
+
+              <button type="button" class="btn btn-sm btn-dark"><i class="ph-fill ph-shopping-cart"></i></button>
+                
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </nav> 
+  </header>
+
+  <main>
+    
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators " >
+        
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <img src="images/category/catgeory-headboard webp.webp" class="d-block w-100" alt="..." >
+          <div class="carousel-caption text-black">
+            
+            <h6 class="text-success">headboard category</h6>
+              <h5>Sleep deeper. Wake brighter. </h5>
+              
+             
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/header-bestseller .webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption text-black">
+            <h6 class="text-success">Mattress </h6>
+              <h5>Fall in love with sleeping again </h5>
+             
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <img src="images/hero_1.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption text-black">
+
+            <h6 class="text-success"> Bed frame category</h6>
+              <h5>New matress,new you</h5>
+              
+            
+
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <section class="py-5 bg-white text-success">
+      <div class="container">
+        <h2 class="mb-4 text-center ">Categories</h2>
+    
+        <div class="row g-3">
+         
+          <div class="col-6 col-lg-3">
+            <div class="category-card position-relative">
+              <img src="images/category/category-bestseller jpg.webp" class="img-fluid category-img" alt="Bestseller">
+              <div class="overlay-text text-black text-center ">
+                <h5>Bestseller</h5>
+                 <h6>17 items</h6>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-6 col-lg-3">
+            <div class="category-card position-relative">
+              <img src="images/category/category_special_offer.webp" class="img-fluid category-img" alt="Bestseller">
+              <div class="overlay-text text-black text-center ">
+                <h5>Pillow</h5>
+                 <h6>17 items</h6>
+              </div>
+            </div>
+          </div>
+    
+    
+      
+          <div class="col-6 col-lg-3">
+            <div class="category-card position-relative">
+              <img src="images/category/catgeory-headboard webp.webp" class="img-fluid category-img" alt="Bestseller">
+              <div class="overlay-text text-black text-center ">
+                <h5>Foam Pillow</h5>
+                 <h6>17 items</h6>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-6 col-lg-3">
+            <div class="category-card position-relative">
+              <img src="images/category/category_bed_frame.webp" class="img-fluid category-img" alt="Bestseller">
+              <div class="overlay-text text-black text-center ">
+                <h5>Bestseller</h5>
+                 <h6>17 items</h6>
+              </div>
+            </div>
+          </div>
+    
+         
+          <div class="col-6 col-lg-3">
+            <div class="category-card position-relative">
+              <img src="images/category/category-matress .webp" class="img-fluid category-img" alt="Bestseller">
+              <div class="overlay-text text-black text-center ">
+                <h5>Bestseller</h5>
+                 <h6>17 items</h6>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-6 col-lg-3">
+            <div class="category-card position-relative">
+              <img src="images/category/category-furniture .webp" class="img-fluid category-img" alt="Bestseller">
+              <div class="overlay-text text-black text-center ">
+                <h5>Bestseller</h5>
+                 <h6>17 items</h6>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-6 col-lg-3">
+            <div class="category-card position-relative">
+              <img src="images/category/category-pillow.webp" class="img-fluid category-img" alt="Bestseller">
+              <div class="overlay-text text-black text-center ">
+                <h5>Bestseller</h5>
+                 <h6>17 items</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <div class="category-card position-relative">
+              <img src="images/category/category-sofabed- webp.webp" class="img-fluid category-img" alt="Bestseller">
+              <div class="overlay-text text-black text-center ">
+                <h5>Bestseller</h5>
+                 <h6>17 items</h6>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    
+
+  
+
+    <section id="cards" class="py-5 bg-success">
+        <div class="container">
+          
+          <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="text-white text-center m-0 mx-auto">All Categories</h2>
+            <a href="#" class="btn btn-dark btn-sm rounded-pill text-success fw-bold">
+                Filter
+            </a>
+        </div>
+
+            
+          
+            <div class="row gy-3">
+
+              <div class="col-6 col-lg-3">
+                <div class="card text-bg-light">
+                  <img src="images/all category /all_category_mattress.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title text-success">mattress</h6>
+                      <h3 class="available">Bamboo Mattress</h3>
+                        <p class="card-text">Bamboo-derived covers tend to be more breathable...</p>
+                          
+                        <div class="d-flex justify-content-between align-items-center">
+                          <h6 class="card-title mb-0 text-success">3 available</h6>
+                          <a href="#" class="btn btn-all-category btn-light text-success text-bold">Add to cart</a>
+                        </div>
+                      
+                    </div>
+                </div>
+              </div>
+              
+
+
+                <div class="col-6 col-lg-3">
+                  <div class="card text-bg-light">
+                    <img src="images/all category /all-category-furniture copy.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title text-success">Bedroom collections</h6>
+                        <h3 class="available">Bedroom set</h3>
+                          <p class="card-text">Small table placed beside the bed for lamps, alarm clock...</p>
+                            
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="card-title mb-0 text-success">1 size available</h6>
+                            <a href="#" class="btn btn-all-category btn-light text-success text-bold">Add to cart</a>
+                          </div>
+                        
+                      </div>
+                  </div>
+                </div>
+                
+  
+                <div class="col-6 col-lg-3">
+                  <div class="card text-bg-light">
+                    <img src="images/all category /all-category-foam-pillow .webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title text-success">Pillow</h6>
+                        <h3 class="available">Foam Pillow</h3>
+                          <p class="card-text">a two set comfy foam pillow  </p>
+                            
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="card-title mb-0 text-success">1 size only</h6>
+                            <a href="#" class="btn btn-all-category btn-light text-success text-bold">Add to cart</a>
+                          </div>
+                        
+                      </div>
+                  </div>
+                </div>
+
+
+
+           <div class="col-6 col-lg-3">
+                  <div class="card text-bg-light">
+                    <img src="images/all category /all-category-kids-bed jpg.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title text-success">Kids bed</h6>
+                        <h3 class="available">Kids comfy bed set</h3>
+                          <p class="card-text">Made with the right materials and certification, they can be safe for kids</p>
+                            
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="card-title mb-0 text-success">5 set available</h6>
+                            <a href="#" class="btn btn-all-category btn-light text-success text-bold">Add to cart</a>
+                          </div>
+                        
+                      </div>
+                  </div>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                  <div class="card text-bg-light">
+                    <img src="images/all category /all_category_decorative_pillow .webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title text-success">Pillow</h6>
+                        <h3 class="available">Decorative pillow</h3>
+                          <p class="card-text">Red velvety soft throw pillows. Velvet has a dense, short pile that catches... </p>
+                            
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="card-title mb-0 text-success">1 size available</h6>
+                            <a href="#" class="btn btn-all-category btn-light text-success text-bold">Add to cart</a>
+                          </div>
+                        
+                      </div>
+                  </div>
+                </div>
+
+
+                <div class="col-6 col-lg-3">
+                  <div class="card text-bg-light">
+                    <img src="images/all category /all-category-kids-bed-2 .webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title text-success">Matress</h6>
+                        <h3 class="available">Children small bed</h3>
+                          <p class="card-text">“A bright and cozy kids’ bedroom designed with playful charm </p>
+                            
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="card-title mb-0 text-success">2 size available</h6>
+                            <a href="#" class="btn btn-all-category btn-light text-success text-bold">Add to cart</a>
+                          </div>
+                        
+                      </div>
+                  </div>
+                </div>
+
+
+
+                <div class="col-6 col-lg-3">
+                  <div class="card text-bg-light">
+                    <img src="images/all category /all_category-sofabed.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title text-success">Sofa bed</h6>
+                        <h3 class="available">Modern sofa bed</h3>
+                          <p class="card-text">It’s ideal for small spaces, guest rooms, or multipurpose living areas.</p>
+                            
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="card-title mb-0 text-success">1 size available</h6>
+                            <a href="#" class="btn btn-all-category btn-light text-success text-bold">Add to cart</a>
+                          </div>
+                        
+                      </div>
+                  </div>
+                </div>
+
+
+                <div class="col-6 col-lg-3">
+                  <div class="card text-bg-light">
+                    <img src="images/all category /all_category_flower_headboard.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title text-success">Headboards</h6>
+                        <h3 class="available">Flower headboard</h3>
+                          <p class="card-text">This cozy bohemian-inspired bedroom features a stunning rattan... </p>
+                            
+                          <div class="d-flex justify-content-between align-items-center">
+                            <h6 class="card-title mb-0 text-success">5 sizes available</h6>
+                            <a href="#" class="btn btn-all-category btn-light text-success text-bold">Add to cart</a>
+                          </div>
+                        
+                      </div>
+                  </div>
+                </div>
+          </div>
+      </section>
+      
+
+    
+      <footer class="bg-dark text-white py-4">
+        <div class="container py-5">
+          <div class="row align-items-start">
+      
+            
+            <div class="col-lg-4 mb-2 d-flex justify-content-center justify-content-lg-start">
+              <img src="images/logo .webp" alt="Logo" class=" logo-img img-fluid" style="max-width: 150px;">
+            </div>
+      
+           
+            <div class="col-lg-4 mb-2 mb-lg-0 d-flex flex-column justify-content-start text-center text-lg-start text-black">
+              <p>
+                We offer a full delivery and assembly service and can deliver throughout Northern Ireland. If you require any assistance,our friendly sales staff are waiting to assist you.
+                Simply call our sales  on NI/UK: 028 90453 723 
+                Or email us on discountbedsbelfast@yahoo.co.uk
+              </p>
+            </div>
+      
+           
+            <div id="social" class="col-lg-4 mb-4 mb-lg-0">
+
+              <p>
+                <a href="#" class="text-success d-flex align-items-center gap-2">
+                  <i class="ph-fill ph-instagram-logo"></i>
+                  Discountbedsbelfast
+                </a>
+              </p>
+              
+              <p>
+                <a href="#" class="text-success d-flex align-items-center gap-2">
+                  <i class="ph-fill ph-facebook-logo"></i>
+                  Discountbedsbelfast
+                </a>
+              </p>
+              
+              <p>
+                <a href="mailto:discountbedsbelfast@yahoo.co.uk" class="text-success d-flex align-items-center gap-2">
+                  <i class="ph-fill ph-envelope"></i>
+                  discountbedsbelfast@yahoo.co.uk
+                </a>
+              </p>
+            
+      
+          </div>
+        </div>
+      </footer>
+      
+      
+    
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </main>
+</body>
+</html>
